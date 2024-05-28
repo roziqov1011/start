@@ -8,7 +8,7 @@ import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
-
+console.log(5==5);
   return (
     <div className='App'>
       <Header/>
@@ -17,6 +17,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/services' element={<h1>Service</h1>}/>
         <Route path='/contact' element={<h1>Contact</h1>}/>
+        <Route path='*' element={<h1>NOT fount</h1>}/>
       </Routes>
       <Footer/>
     </div>

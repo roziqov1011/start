@@ -24,6 +24,9 @@ function Header() {
                             <li className="nav-item">
                                 <Link to='/contact' className="nav-link" href="#">contact</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to='/profle' className="nav-link" href="#">Profile</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
